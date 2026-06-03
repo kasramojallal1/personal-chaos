@@ -16,3 +16,7 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
+def shout(name: str = "world") -> str:
+    return greet(name).upper()
